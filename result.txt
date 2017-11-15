@@ -123,3 +123,9 @@ randall,cos,1
 mjy01,svd,0
 mjy01,als,0
 123ABC,svd,0
+acedaryl1,svd,1
+lekky,svd,0
+acedaryl1,als,1
+lekky,als,1
+lekky,cos,0
+acedaryl1,cos,1
