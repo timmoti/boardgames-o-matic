@@ -24,3 +24,13 @@ AlexFS,svd,1
 AlexFS,als,1
 Geekorok,svd,0
 Stivers,svd,0
+revgiblet,svd,1
+Verglas,svd,0
+revgiblet,als,0
+TatertotEatalot,svd,0
+Verglas,als,0
+MrLeigh81,svd,1
+TatertotEatalot,als,1
+revgiblet,cos,1
+TatertotEatalot,cos,0
+Verglas,cos,1
