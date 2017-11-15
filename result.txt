@@ -66,3 +66,9 @@ Herjan,svd,0
 Kisco,svd,1
 Kisco,als,1
 Kisco,cos,1
+marronigus,svd,0
+Ren3,svd,0
+marronigus,als,0
+Ren3,als,1
+marronigus,cos,1
+Ren3,cos,1
