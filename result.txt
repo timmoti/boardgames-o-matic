@@ -133,3 +133,6 @@ Black Alexidor,svd,0
 Black Alexidor,als,0
 jacer,svd,0
 jacer,als,0
+FrozenHoHos,svd,1
+FrozenHoHos,als,0
+FrozenHoHos,cos,1
