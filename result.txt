@@ -4,3 +4,4 @@ passthedynamite,cos,1
 manueld,svd,1
 DobbelB,svd,0
 DobbelB,als,1
+DobbelB,cos,1
