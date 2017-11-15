@@ -160,3 +160,4 @@ thebilliard5,cos,0
 damonstea,svd,0
 apprenticeb,svd,0
 damonstea,als,0
+damonstea,cos,0
