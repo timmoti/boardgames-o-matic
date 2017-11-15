@@ -50,3 +50,9 @@ IMunky,als,1
 damnyouhussies,svd,1
 VolkoV,svd,1
 gentle,svd,0
+bengkohn,svd,1
+bengkohn,als,1
+bengkohn,cos,1
+jesslc,svd,0
+Scrabbler,cos,0
+jesslc,als,1
