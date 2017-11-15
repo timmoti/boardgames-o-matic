@@ -1,0 +1,3 @@
+passthedynamite,svd,1
+passthedynamite,als,1
+passthedynamite,cos,1

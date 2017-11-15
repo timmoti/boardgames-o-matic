@@ -5,3 +5,4 @@ passthedynamite,Another test!
 szeswee,Hi, just dropping by.
 szeswee,Dont mind me
 derrick,Hiiiiii
+derrick,bash script testing
