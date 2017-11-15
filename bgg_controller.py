@@ -44,8 +44,8 @@ def recommend():
 
 	not_done = True
 
-	if len(algo_list) == 0 or algo == '1':
-		if algo == '1':
+	if len(algo_list) == 0 or algo == 'SVD':
+		if algo == 'SVD':
 			not_done = False
 		algorithm = 'Singular Value Decomposition'
 		algo = 'svd'
@@ -57,8 +57,8 @@ def recommend():
 		mask[rated] = False
 		prediction[~mask] = 0
 
-	elif len(algo_list) == 1 or algo == '2':
-		if algo == '2':
+	elif len(algo_list) == 1 or algo == 'NNMF':
+		if algo == 'NNMF':
 			not_done = False
 		algorithm = 'Non-Negative Matrix Factorization with Weighted Alternating Least Squares'	
 		algo = 'als'
@@ -70,8 +70,8 @@ def recommend():
 		mask[rated] = False
 		prediction[~mask] = 0
 
-	elif len(algo_list) == 2 or algo == '3' :
-		if algo == '3':
+	elif len(algo_list) == 2 or algo == 'Cos Sim' :
+		if algo == 'Cos Sim':
 			not_done = False
 		algorithm = "Cosine Similarity"
 		algo = 'cos'
