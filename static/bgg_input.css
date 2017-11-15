@@ -13,12 +13,16 @@ a:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: #fff;
   text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
+  background-color: #df3f87;
+  border: .05rem solid #df3f87;
 }
 
+.btn-primary {
+  background-color: #df3f87;
+  border: #df3f87;
+}
 
 /*
  * Base structure
