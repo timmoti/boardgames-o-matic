@@ -72,3 +72,9 @@ marronigus,als,0
 Ren3,als,1
 marronigus,cos,1
 Ren3,cos,1
+meomwt,svd,0
+jmdsplotter,svd,0
+jmdsplotter,als,0
+meomwt,als,0
+jmdsplotter,cos,0
+meomwt,cos,1
