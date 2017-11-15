@@ -96,3 +96,6 @@ bitatmoonl,svd,1
 bitatmoonl,als,1
 bitatmoonl,cos,1
 Darzebass,svd,1
+Sparklie,svd,1
+Sparklie,als,1
+Sparklie,cos,1
