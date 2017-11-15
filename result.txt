@@ -102,3 +102,5 @@ Sparklie,cos,1
 jdw734,svd,0
 jdw734,als,1
 jdw734,cos,1
+nlfuller77,svd,0
+nlfuller77,als,0
