@@ -205,3 +205,5 @@ noisycrow,svd,1
 shutterbugtn,svd,0
 shutterbugtn,als,0
 shutterbugtn,cos,0
+jujulautre,svd,0
+jujulautre,als,0
