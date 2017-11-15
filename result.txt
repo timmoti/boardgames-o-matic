@@ -93,3 +93,5 @@ Carthoris,cos,0
 sloppydj,svd,1
 sloppydj,als,1
 bitatmoonl,svd,1
+bitatmoonl,als,1
+bitatmoonl,cos,1
