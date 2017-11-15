@@ -165,3 +165,5 @@ cymric,svd,0
 smwoz17,svd,1
 smwoz17,als,1
 smwoz17,cos,1
+eddy_sterckx,svd,1
+eddy_sterckx,als,1
