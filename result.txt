@@ -78,3 +78,6 @@ jmdsplotter,als,0
 meomwt,als,0
 jmdsplotter,cos,0
 meomwt,cos,1
+SonyBlack,svd,0
+SonyBlack,als,1
+SonyBlack,cos,1
