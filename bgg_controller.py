@@ -1,0 +1,211 @@
+import flask
+import pickle
+import pandas as pd
+import numpy as np
+
+
+#------ CONFIG ------ #
+app = flask.Flask(__name__)
+app.config['DEBUG'] = True
+
+#-----MODEL--------#
+
+df = pd.read_pickle('../ratings_pickle')
+games = pd.read_csv('../bgg_gamelist.csv')
+svd50preds = pd.read_pickle('../svd50preds_pickle')
+all_sims = pd.read_pickle('../cos_ii_sims_all_pickle')
+alspreds = pd.read_pickle('../alspreds_pickle')
+
+#----- ROUTES -------#
+@app.route("/home")
+def predict():
+	algo = 'abc'
+	return flask.render_template("bgg_input.html", algo=algo)
+
+@app.route('/result', methods=['POST', 'GET'])
+def recommend():
+
+	user = flask.request.form['user']
+	algo = flask.request.form['algo']
+	algo_list = []
+	# last_algo = ''
+	with open('result.txt', 'rb') as r:
+		for line in r:
+			if line.split(',')[0] == user:
+				alg = line.split(',')[1]
+				if alg in algo_list:
+					pass
+				else:
+					algo_list.append(alg)
+
+	
+	# 	pass
+	# if flask.request.form['algo'] is defined:
+	# 	already_done = flask.request.form['algo']
+	# else:
+	# 	already_done = ''
+	# return already_done
+
+	not_done = True
+
+	if len(algo_list) == 0 or algo == '1':
+		if algo == '1':
+			not_done = False
+		algorithm = 'Singular Value Decomposition'
+		algo = 'svd'
+		user_idx = df.index.get_loc(user)
+		prediction = svd50preds[user_idx]
+		rated = df.loc[user].fillna(0).as_matrix().nonzero()
+
+		mask = np.ones_like(prediction, dtype=bool)
+		mask[rated] = False
+		prediction[~mask] = 0
+
+	elif len(algo_list) == 1 or algo == '2':
+		if algo == '2':
+			not_done = False
+		algorithm = 'Non-Negative Matrix Factorization with Weighted Alternating Least Squares'	
+		algo = 'als'
+		user_idx = df.index.get_loc(user)
+		prediction = alspreds[user_idx]
+		rated = df.loc[user].fillna(0).as_matrix().nonzero()
+
+		mask = np.ones_like(prediction, dtype=bool)
+		mask[rated] = False
+		prediction[~mask] = 0
+
+	elif len(algo_list) == 2 or algo == '3' :
+		if algo == '3':
+			not_done = False
+		algorithm = "Cosine Similarity"
+		algo = 'cos'
+		prediction = np.zeros_like(df.loc[user])
+		ratings_array = df.fillna(0).as_matrix()
+   		person = ratings_array[df.index.get_loc(user)]
+   		rated = person.nonzero()[0]
+	   	for idx in range(ratings_array.shape[1]):
+	   		if idx not in rated:
+	   			sim = all_sims[idx]
+	   			prediction[idx] = np.sum(sim[rated]*person[rated])/np.sum(np.abs(sim[rated]))
+
+	elif len(algo_list) == 3:
+		return flask.render_template('bgg_last.html', user=user)
+
+	
+
+	predictions = pd.Series(prediction, index=df.columns, name='predictions')
+	recommendations = games.join(predictions, on='gameid')
+	recommendation = recommendations.sort_values('predictions', ascending=False).head(20)
+	recommendation = recommendation[['gamename', 'gamerank']].rename(columns={'gamename': 'Game Title', 'gamerank': 'BGG Rank'})
+	recommendation = recommendation.reset_index(drop=True)
+	return flask.render_template('bgg_results.html', user=user, algorithm=algorithm, algo=algo,
+		tables=[recommendation.to_html(classes='recommendation', index=False)], titles=['na', 'Recommended based on your ratings'], not_done=not_done)
+
+# @app.route('/result_svd50', methods=['POST', 'GET'])
+# def recommend_svd50():
+
+# 	user = flask.request.form['username']
+# 	algo = 'Singular Value Decomposition'
+# 	algo_count = 1	
+# 	user_idx = df.index.get_loc(user)
+# 	prediction = svd50preds[user_idx]
+# 	rated = df.loc[user].fillna(0).as_matrix().nonzero()
+
+# 	mask = np.ones_like(prediction, dtype=bool)
+# 	mask[rated] = False
+# 	prediction[~mask] = 0
+
+# 	predictions = pd.Series(prediction, index=df.columns, name='predictions')
+# 	recommendations = games.join(predictions, on='gameid')
+# 	recommendation = recommendations.sort_values('predictions', ascending=False).head(20)
+# 	recommendation = recommendation[['gamename', 'gamerank']].rename(columns={'gamename': 'Game Title', 'gamerank': 'BGG Rank'})
+# 	recommendation = recommendation.reset_index(drop=True)
+# 	return flask.render_template('bgg_results.html', user=user, algo=algo, algo_count=algo_count, 
+# 		tables=[recommendation.to_html(classes='recommendation', index=False)], titles=['na', 'Recommended based on your ratings'])
+
+# @app.route('/result_cosii', methods=['POST', 'GET'])
+# def recommend_cosii():
+# 	user = flask.request.form['username']
+# 	preds = np.zeros_like(df.loc[user])
+# 	algo = 'Cosine Similarity'
+# 	algo_count = 2
+
+# 	ratings_array = df.fillna(0).as_matrix()
+#    	person = ratings_array[df.index.get_loc(user)]
+#    	rated = person.nonzero()[0]
+#    	for idx in range(ratings_array.shape[1]):
+#    		if idx not in rated:
+#    			sim = all_sims[idx]
+#    			preds[idx] = np.sum(sim[rated]*person[rated])/np.sum(np.abs(sim[rated]))
+
+#    	predictions = pd.Series(preds, index=df.columns, name='predictions')
+#    	recommendations = games.join(predictions, on='gameid')
+# 	recommendation = recommendations.sort_values('predictions', ascending=False).head(20)
+# 	recommendation = recommendation[['gamename', 'gamerank']].rename(columns={'gamename': 'Game Title', 'gamerank': 'BGG Rank'})
+# 	recommendation = recommendation.reset_index(drop=True)
+# 	return flask.render_template('bgg_results.html', user=user, algo=algo, algo_count=algo_count, 
+# 		tables=[recommendation.to_html(classes='recommendation', index=False)], titles=['na', 'Recommended based on your ratings'])
+
+# app.route('/result_als10', methods=['POST', 'GET'])
+# def recommend_als10():
+# 	pass
+
+@app.route('/about')
+def about():
+	return flask.render_template('bgg_about.html')
+
+@app.route('/contact')
+def contact():
+	return flask.render_template('bgg_contact.html')
+
+@app.route('/feedback', methods = ['POST', 'GET'])
+def feedback():
+    if flask.request.method == 'POST':
+    	user = flask.request.form['username']
+        fdbk = flask.request.form['feedback_input']  
+
+    with open('feedback.txt','a') as f:
+        f.write(user + ',')
+        f.write(fdbk + '\n')
+
+    return flask.render_template('bgg_feedback.html')
+
+@app.route('/rating', methods = ['POST', 'GET'])
+def rating():
+	if flask.request.method == 'POST':
+		if flask.request.form['submit'] == 'good':
+			rating = 1
+		elif flask.request.form['submit'] == 'not_good':
+			rating = 0
+		else:
+			pass
+	user = flask.request.form['user']
+	algorithm = flask.request.form['algorithm']
+	algo = flask.request.form['algo']
+	# algo_count = flask.request.form['algo_count']
+	# algo_name = ''
+
+	# if algo_count == '1':
+	# 	algo_name = 'result_cosii'
+	# elif algo_count == '2':
+	# 	algo_name = 'result_svd50'
+
+	with open('result.txt', 'a') as r:
+		r.write(user + ',')
+		r.write(algo + ',')
+		r.write(str(rating) + '\n')
+
+	if algo == 'cos':
+		return flask.render_template('bgg_last.html', user=user, algorithm=algorithm, algo=algo)
+	else:
+		return flask.render_template('bgg_rating.html', user=user, algorithm=algorithm, algo=algo)	
+
+@app.route('/last', methods = ['POST', 'GET'])
+def last():
+	user = flask.request.form['user']
+	return flask.render_template('bgg_last.html', user=user)	
+	
+
+#------ MAIN SENTINEL ------#
+if __name__ == '__main__':
+	app.run(threaded=True, debug=True)
