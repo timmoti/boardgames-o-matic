@@ -157,3 +157,4 @@ tfoz15,svd,1
 tfoz15,als,0
 tfoz15,cos,1
 thebilliard5,cos,0
+damonstea,svd,0
