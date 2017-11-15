@@ -29,7 +29,7 @@ def predict():
 def recommend():
 
 	user = flask.request.form['user']
-	if user not in df.index():
+	if user not in df.index:
 		return flask.render_template('bgg_error.html')
 	algo = flask.request.form['algo']
 	algo_list = []
