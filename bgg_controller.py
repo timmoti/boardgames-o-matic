@@ -6,7 +6,6 @@ import numpy as np
 
 #------ CONFIG ------ #
 app = flask.Flask(__name__)
-#app.config['DEBUG'] = True
 
 #-----MODEL--------#
 
@@ -28,7 +27,6 @@ def recommend():
 	user = flask.request.form['user']
 	algo = flask.request.form['algo']
 	algo_list = []
-	# last_algo = ''
 	with open('result.txt', 'rb') as r:
 		for line in r:
 			if line.split(',')[0] == user:
@@ -37,14 +35,6 @@ def recommend():
 					pass
 				else:
 					algo_list.append(alg)
-
-	
-	# 	pass
-	# if flask.request.form['algo'] is defined:
-	# 	already_done = flask.request.form['algo']
-	# else:
-	# 	already_done = ''
-	# return already_done
 
 	not_done = True
 
@@ -101,54 +91,7 @@ def recommend():
 	return flask.render_template('bgg_results.html', user=user, algorithm=algorithm, algo=algo,
 		tables=[recommendation.to_html(classes='recommendation', index=False)], titles=['na', 'Recommended based on your ratings'], not_done=not_done)
 
-# @app.route('/result_svd50', methods=['POST', 'GET'])
-# def recommend_svd50():
 
-# 	user = flask.request.form['username']
-# 	algo = 'Singular Value Decomposition'
-# 	algo_count = 1	
-# 	user_idx = df.index.get_loc(user)
-# 	prediction = svd50preds[user_idx]
-# 	rated = df.loc[user].fillna(0).as_matrix().nonzero()
-
-# 	mask = np.ones_like(prediction, dtype=bool)
-# 	mask[rated] = False
-# 	prediction[~mask] = 0
-
-# 	predictions = pd.Series(prediction, index=df.columns, name='predictions')
-# 	recommendations = games.join(predictions, on='gameid')
-# 	recommendation = recommendations.sort_values('predictions', ascending=False).head(20)
-# 	recommendation = recommendation[['gamename', 'gamerank']].rename(columns={'gamename': 'Game Title', 'gamerank': 'BGG Rank'})
-# 	recommendation = recommendation.reset_index(drop=True)
-# 	return flask.render_template('bgg_results.html', user=user, algo=algo, algo_count=algo_count, 
-# 		tables=[recommendation.to_html(classes='recommendation', index=False)], titles=['na', 'Recommended based on your ratings'])
-
-# @app.route('/result_cosii', methods=['POST', 'GET'])
-# def recommend_cosii():
-# 	user = flask.request.form['username']
-# 	preds = np.zeros_like(df.loc[user])
-# 	algo = 'Cosine Similarity'
-# 	algo_count = 2
-
-# 	ratings_array = df.fillna(0).as_matrix()
-#    	person = ratings_array[df.index.get_loc(user)]
-#    	rated = person.nonzero()[0]
-#    	for idx in range(ratings_array.shape[1]):
-#    		if idx not in rated:
-#    			sim = all_sims[idx]
-#    			preds[idx] = np.sum(sim[rated]*person[rated])/np.sum(np.abs(sim[rated]))
-
-#    	predictions = pd.Series(preds, index=df.columns, name='predictions')
-#    	recommendations = games.join(predictions, on='gameid')
-# 	recommendation = recommendations.sort_values('predictions', ascending=False).head(20)
-# 	recommendation = recommendation[['gamename', 'gamerank']].rename(columns={'gamename': 'Game Title', 'gamerank': 'BGG Rank'})
-# 	recommendation = recommendation.reset_index(drop=True)
-# 	return flask.render_template('bgg_results.html', user=user, algo=algo, algo_count=algo_count, 
-# 		tables=[recommendation.to_html(classes='recommendation', index=False)], titles=['na', 'Recommended based on your ratings'])
-
-# app.route('/result_als10', methods=['POST', 'GET'])
-# def recommend_als10():
-# 	pass
 
 @app.route('/about')
 def about():
@@ -182,13 +125,6 @@ def rating():
 	user = flask.request.form['user']
 	algorithm = flask.request.form['algorithm']
 	algo = flask.request.form['algo']
-	# algo_count = flask.request.form['algo_count']
-	# algo_name = ''
-
-	# if algo_count == '1':
-	# 	algo_name = 'result_cosii'
-	# elif algo_count == '2':
-	# 	algo_name = 'result_svd50'
 
 	with open('result.txt', 'a') as r:
 		r.write(user + ',')
