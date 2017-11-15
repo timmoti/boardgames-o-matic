@@ -173,3 +173,7 @@ Spyzou,svd,0
 Spyzou,als,0
 Ranior,cos,1
 Spyzou,cos,0
+aaj94,svd,1
+aaj94,als,0
+aaj94,cos,1
+itbrvilla,svd,0
