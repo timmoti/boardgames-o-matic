@@ -86,3 +86,4 @@ greendayfan333,als,1
 greendayfan333,cos,1
 team_bonnie,svd,1
 team_bonnie,als,1
+team_bonnie,cos,1
