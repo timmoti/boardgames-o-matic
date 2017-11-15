@@ -191,3 +191,6 @@ ajsoares,cos,1
 reddish22,svd,0
 Adamvic,svd,1
 Kalakazo,svd,1
+Kalakazo,als,1
+Kalakazo,cos,1
+CatpissWilly,svd,0
