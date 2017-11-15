@@ -129,3 +129,5 @@ acedaryl1,als,1
 lekky,als,1
 lekky,cos,0
 acedaryl1,cos,1
+Black Alexidor,svd,0
+Black Alexidor,als,0
