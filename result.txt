@@ -5,3 +5,4 @@ manueld,svd,1
 DobbelB,svd,0
 DobbelB,als,1
 DobbelB,cos,1
+owenwill21,svd,1
