@@ -2,3 +2,5 @@ passthedynamite,svd,1
 passthedynamite,als,1
 passthedynamite,cos,1
 manueld,svd,1
+DobbelB,svd,0
+DobbelB,als,1
