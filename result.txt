@@ -39,3 +39,4 @@ Mentat1231,svd,0
 Mentat1231,als,0
 Mentat1231,cos,1
 Haschim,svd,1
+Haschim,als,1
