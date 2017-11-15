@@ -78,3 +78,12 @@ jmdsplotter,als,0
 meomwt,als,0
 jmdsplotter,cos,0
 meomwt,cos,1
+SonyBlack,svd,0
+SonyBlack,als,1
+SonyBlack,cos,1
+greendayfan333,svd,1
+greendayfan333,als,1
+greendayfan333,cos,1
+team_bonnie,svd,1
+team_bonnie,als,1
+team_bonnie,cos,1
