@@ -16,6 +16,10 @@ all_sims = pd.read_pickle('../cos_ii_sims_all_pickle')
 alspreds = pd.read_pickle('../alspreds_pickle')
 
 #----- ROUTES -------#
+@app.route("/")
+def home():
+	return flask.redirect("/home")
+	
 @app.route("/home")
 def predict():
 	algo = 'abc'
