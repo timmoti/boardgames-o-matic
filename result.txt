@@ -45,3 +45,5 @@ Scrabbler,svd,1
 Scrabbler,als,0
 JohnnyDollar,svd,1
 JohnnyDollar,als,1
+IMunky,svd,0
+IMunky,als,1
