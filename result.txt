@@ -41,3 +41,7 @@ Mentat1231,cos,1
 Haschim,svd,1
 Haschim,als,1
 Haschim,cos,1
+Scrabbler,svd,1
+Scrabbler,als,0
+JohnnyDollar,svd,1
+JohnnyDollar,als,1
