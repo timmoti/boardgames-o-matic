@@ -117,3 +117,5 @@ Wight1984,cos,1
 dragonster,svd,0
 MarcusK,svd,1
 dragonster,als,0
+randall,svd,1
+randall,als,1
