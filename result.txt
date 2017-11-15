@@ -13,3 +13,5 @@ willshaw67,cos,0
 ins3kT,svd,1
 ins3kT,als,1
 ins3kT,cos,1
+Windmark,svd,1
+Windmark,als,1
