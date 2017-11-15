@@ -56,3 +56,13 @@ bengkohn,cos,1
 jesslc,svd,0
 Scrabbler,cos,0
 jesslc,als,1
+alleserik,svd,0
+alleserik,als,1
+Ilikegames,svd,1
+alleserik,cos,1
+Ilikegames,als,1
+Ilikegames,cos,0
+Herjan,svd,0
+Kisco,svd,1
+Kisco,als,1
+Kisco,cos,1
