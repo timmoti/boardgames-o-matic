@@ -99,3 +99,6 @@ Darzebass,svd,1
 Sparklie,svd,1
 Sparklie,als,1
 Sparklie,cos,1
+jdw734,svd,0
+jdw734,als,1
+jdw734,cos,1
