@@ -138,3 +138,4 @@ FrozenHoHos,als,0
 FrozenHoHos,cos,1
 lokipm,svd,0
 lokipm,als,0
+lokipm,cos,0
