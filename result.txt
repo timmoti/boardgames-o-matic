@@ -10,3 +10,6 @@ Abiezer Coppe,svd,0
 willshaw67,svd,0
 willshaw67,als,1
 willshaw67,cos,0
+ins3kT,svd,1
+ins3kT,als,1
+ins3kT,cos,1
