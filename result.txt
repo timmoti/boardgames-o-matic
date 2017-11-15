@@ -180,3 +180,5 @@ itbrvilla,svd,0
 thoia,svd,0
 terrakhan,svd,0
 terrakhan,als,0
+terrakhan,cos,1
+stagger lee,svd,1
