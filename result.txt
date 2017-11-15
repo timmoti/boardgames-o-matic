@@ -22,3 +22,4 @@ rubberchicken,als,1
 rubberchicken,cos,1
 AlexFS,svd,1
 AlexFS,als,1
+Geekorok,svd,0
