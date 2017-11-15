@@ -6,7 +6,7 @@ import numpy as np
 
 #------ CONFIG ------ #
 app = flask.Flask(__name__)
-app.config['DEBUG'] = True
+#app.config['DEBUG'] = True
 
 #-----MODEL--------#
 
@@ -208,4 +208,4 @@ def last():
 
 #------ MAIN SENTINEL ------#
 if __name__ == '__main__':
-	app.run(threaded=True, debug=True)
+	app.run(threaded=True)
