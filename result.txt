@@ -194,3 +194,6 @@ Kalakazo,svd,1
 Kalakazo,als,1
 Kalakazo,cos,1
 CatpissWilly,svd,0
+Santiago,svd,1
+Santiago,als,1
+Santiago,cos,1
