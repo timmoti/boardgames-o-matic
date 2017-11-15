@@ -16,3 +16,4 @@ ins3kT,cos,1
 Windmark,svd,1
 Windmark,als,1
 Windmark,cos,1
+MADG0BLIN,svd,1
