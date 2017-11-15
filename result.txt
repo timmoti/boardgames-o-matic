@@ -90,3 +90,6 @@ team_bonnie,cos,1
 Carthoris,svd,0
 Carthoris,als,0
 Carthoris,cos,0
+sloppydj,svd,1
+sloppydj,als,1
+bitatmoonl,svd,1
