@@ -167,3 +167,9 @@ smwoz17,als,1
 smwoz17,cos,1
 eddy_sterckx,svd,1
 eddy_sterckx,als,1
+Ranior,svd,0
+Ranior,als,0
+Spyzou,svd,0
+Spyzou,als,0
+Ranior,cos,1
+Spyzou,cos,0
