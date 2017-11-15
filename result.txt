@@ -17,3 +17,6 @@ Windmark,svd,1
 Windmark,als,1
 Windmark,cos,1
 MADG0BLIN,svd,1
+rubberchicken,svd,1
+rubberchicken,als,1
+rubberchicken,cos,1
