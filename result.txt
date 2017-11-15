@@ -20,3 +20,4 @@ MADG0BLIN,svd,1
 rubberchicken,svd,1
 rubberchicken,als,1
 rubberchicken,cos,1
+AlexFS,svd,1
