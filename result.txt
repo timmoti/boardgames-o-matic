@@ -81,3 +81,7 @@ meomwt,cos,1
 SonyBlack,svd,0
 SonyBlack,als,1
 SonyBlack,cos,1
+greendayfan333,svd,1
+greendayfan333,als,1
+greendayfan333,cos,1
+team_bonnie,svd,1
