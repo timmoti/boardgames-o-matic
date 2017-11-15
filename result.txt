@@ -202,3 +202,6 @@ rizzat,svd,1
 YourLoveOnly,svd,1
 YourLoveOnly,als,0
 noisycrow,svd,1
+shutterbugtn,svd,0
+shutterbugtn,als,0
+shutterbugtn,cos,0
