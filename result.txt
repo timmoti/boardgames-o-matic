@@ -147,3 +147,6 @@ gatchaman,als,0
 gatchaman,cos,1
 EliasDKehr,als,1
 EliasDKehr,cos,1
+MacavityandMycroft,svd,1
+thebilliard5,svd,1
+thebilliard5,als,1
