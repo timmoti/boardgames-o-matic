@@ -34,3 +34,6 @@ TatertotEatalot,als,1
 revgiblet,cos,1
 TatertotEatalot,cos,0
 Verglas,cos,1
+MK000,svd,1
+Mentat1231,svd,0
+Mentat1231,als,0
