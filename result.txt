@@ -109,3 +109,8 @@ picklethehutt,als,0
 picklethehutt,cos,1
 micahcantrell,svd,0
 brewdinar,svd,1
+brewdinar,als,1
+brewdinar,cos,1
+Wight1984,svd,1
+Wight1984,als,1
+Wight1984,cos,1
