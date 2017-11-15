@@ -104,3 +104,6 @@ jdw734,als,1
 jdw734,cos,1
 nlfuller77,svd,0
 nlfuller77,als,0
+picklethehutt,svd,1
+picklethehutt,als,0
+picklethehutt,cos,1
