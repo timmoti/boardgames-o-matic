@@ -136,3 +136,5 @@ jacer,als,0
 FrozenHoHos,svd,1
 FrozenHoHos,als,0
 FrozenHoHos,cos,1
+lokipm,svd,0
+lokipm,als,0
