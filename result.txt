@@ -150,3 +150,6 @@ EliasDKehr,cos,1
 MacavityandMycroft,svd,1
 thebilliard5,svd,1
 thebilliard5,als,1
+PYREST,svd,0
+PYREST,als,1
+PYREST,cos,0
