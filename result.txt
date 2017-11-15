@@ -153,3 +153,6 @@ thebilliard5,als,1
 PYREST,svd,0
 PYREST,als,1
 PYREST,cos,0
+tfoz15,svd,1
+tfoz15,als,0
+tfoz15,cos,1
