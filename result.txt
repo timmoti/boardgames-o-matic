@@ -178,3 +178,5 @@ aaj94,als,0
 aaj94,cos,1
 itbrvilla,svd,0
 thoia,svd,0
+terrakhan,svd,0
+terrakhan,als,0
