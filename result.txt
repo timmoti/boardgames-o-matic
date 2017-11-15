@@ -141,3 +141,5 @@ lokipm,als,0
 lokipm,cos,0
 minshark,svd,0
 minshark,als,0
+EliasDKehr,svd,1
+gatchaman,svd,0
