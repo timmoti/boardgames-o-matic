@@ -189,3 +189,4 @@ ajsoares,svd,0
 ajsoares,als,0
 ajsoares,cos,1
 reddish22,svd,0
+Adamvic,svd,1
