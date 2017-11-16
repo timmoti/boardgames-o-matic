@@ -225,3 +225,5 @@ Olijf,svd,1
 adamw,svd,0
 adamw,als,0
 adamw,cos,0
+petegrey,svd,0
+petegrey,als,0
