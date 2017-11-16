@@ -307,3 +307,6 @@ arvama,cos,1
 rahdo,svd,0
 rahdo,als,0
 rahdo,cos,0
+AndySzy,svd,1
+AndySzy,als,0
+AndySzy,als,1
