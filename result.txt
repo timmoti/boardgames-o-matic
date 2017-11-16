@@ -221,3 +221,4 @@ dizzybit,svd,0
 dizzybit,als,1
 dizzybit,cos,0
 Rustic,svd,1
+Olijf,svd,1
