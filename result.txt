@@ -383,3 +383,4 @@ mondauge,svd,1
 mondauge,als,0
 mondauge,cos,1
 Snapcase,svd,0
+usmint99,svd,0
