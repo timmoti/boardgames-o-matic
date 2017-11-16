@@ -384,3 +384,5 @@ mondauge,als,0
 mondauge,cos,1
 Snapcase,svd,0
 usmint99,svd,0
+Thereat,svd,1
+Thereat,als,0
