@@ -255,3 +255,4 @@ jaredkass,svd,0
 jaredkass,als,0
 amuromax,svd,1
 amuromax,als,1
+lambo89,svd,1
