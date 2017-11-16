@@ -208,3 +208,5 @@ shutterbugtn,cos,0
 jujulautre,svd,0
 jujulautre,als,0
 jujulautre,cos,0
+invervegas,svd,1
+invervegas,als,1
