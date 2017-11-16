@@ -300,3 +300,4 @@ Towpowyeah,svd,1
 Towpowyeah,als,0
 Towpowyeah,cos,1
 jorl,svd,0
+jorl,als,1
