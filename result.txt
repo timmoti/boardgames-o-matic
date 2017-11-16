@@ -218,3 +218,6 @@ thinman13,als,0
 jade_alarm,svd,1
 jade_alarm,als,1
 dizzybit,svd,0
+dizzybit,als,1
+dizzybit,cos,0
+Rustic,svd,1
