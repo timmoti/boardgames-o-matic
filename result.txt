@@ -265,3 +265,6 @@ Suzor,svd,0
 floppei,svd,0
 floppei,als,1
 floppei,cos,1
+mcpranno,svd,1
+mcpranno,als,1
+mcpranno,cos,1
