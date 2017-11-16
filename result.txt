@@ -315,3 +315,5 @@ kimseah,svd,0
 kimseah,als,1
 kimseah,cos,0
 PlayBosco,svd,1
+PlayBosco,als,1
+vica8081,svd,0
