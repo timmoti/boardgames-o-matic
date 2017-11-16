@@ -239,3 +239,5 @@ alenen,cos,0
 coltbeatsall,svd,1
 coltbeatsall,als,0
 coltbeatsall,cos,1
+Darzebass,als,0
+Darzebass,cos,1
