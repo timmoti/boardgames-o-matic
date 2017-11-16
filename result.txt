@@ -245,3 +245,5 @@ vdwoord,svd,0
 lee elektrik,svd,1
 lee elektrik,als,0
 lee elektrik,cos,1
+vdwoord,als,0
+vdwoord,cos,0
