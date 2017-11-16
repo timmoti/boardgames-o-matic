@@ -214,3 +214,7 @@ ovis,svd,0
 ovis,als,0
 ovis,cos,1
 thinman13,svd,1
+thinman13,als,0
+jade_alarm,svd,1
+jade_alarm,als,1
+dizzybit,svd,0
