@@ -342,3 +342,5 @@ nvarela,cos,1
 bstarfish101,svd,1
 bstarfish101,als,0
 bstarfish101,cos,0
+pepilot,svd,1
+Rontuaru,svd,1
