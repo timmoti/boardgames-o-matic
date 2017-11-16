@@ -262,3 +262,6 @@ constancy,svd,0
 constancy,als,1
 constancy,cos,0
 Suzor,svd,0
+floppei,svd,0
+floppei,als,1
+floppei,cos,1
