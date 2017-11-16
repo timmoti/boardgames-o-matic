@@ -305,3 +305,5 @@ arvama,svd,0
 arvama,als,0
 arvama,cos,1
 rahdo,svd,0
+rahdo,als,0
+rahdo,cos,0
