@@ -310,3 +310,8 @@ rahdo,cos,0
 AndySzy,svd,1
 AndySzy,als,0
 AndySzy,als,1
+qweable,svd,1
+kimseah,svd,0
+kimseah,als,1
+kimseah,cos,0
+PlayBosco,svd,1
