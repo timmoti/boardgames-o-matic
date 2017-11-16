@@ -247,3 +247,4 @@ lee elektrik,als,0
 lee elektrik,cos,1
 vdwoord,als,0
 vdwoord,cos,0
+R0land1199,svd,1
