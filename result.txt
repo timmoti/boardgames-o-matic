@@ -230,3 +230,5 @@ petegrey,als,0
 mildthrill,svd,1
 mildthrill,als,0
 mildthrill,cos,1
+Rushifell,svd,0
+Rushifell,als,0
