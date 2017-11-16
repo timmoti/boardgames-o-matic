@@ -371,3 +371,6 @@ Pepe potamo,svd,0
 Pepe potamo,als,0
 Pepe potamo,cos,1
 Pepe potamo,cos,1
+Professor X,svd,1
+Professor X,als,1
+Professor X,cos,1
