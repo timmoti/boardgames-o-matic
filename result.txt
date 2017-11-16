@@ -273,3 +273,7 @@ drobison,als,1
 drobison,cos,1
 bard,svd,0
 bard,als,1
+bard,cos,1
+cpf86,svd,1
+cpf86,als,0
+cpf86,cos,1
