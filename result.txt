@@ -393,3 +393,5 @@ kgcamb7,cos,0
 Ze_German_Guy,svd,1
 Ze_German_Guy,als,1
 Ze_German_Guy,cos,1
+dummyplug,svd,0
+dummyplug,als,0
