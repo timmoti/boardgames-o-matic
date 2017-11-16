@@ -332,3 +332,7 @@ Geese,svd,1
 Geese,als,1
 George S,svd,0
 Shauneroo,svd,0
+Temeraire,svd,0
+Temeraire,als,1
+Temeraire,cos,1
+smartturtle,svd,1
