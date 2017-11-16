@@ -347,3 +347,6 @@ Rontuaru,svd,1
 alexangiraffe,svd,0
 alexangiraffe,als,0
 alexangiraffe,cos,0
+ali16590,svd,1
+ali16590,als,1
+ali16590,cos,0
