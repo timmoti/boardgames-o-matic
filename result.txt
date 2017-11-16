@@ -320,3 +320,5 @@ vica8081,svd,0
 vica8081,als,1
 PlayBosco,cos,0
 vica8081,cos,1
+mafi123,svd,1
+Shadowen,svd,0
