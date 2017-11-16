@@ -344,3 +344,6 @@ bstarfish101,als,0
 bstarfish101,cos,0
 pepilot,svd,1
 Rontuaru,svd,1
+alexangiraffe,svd,0
+alexangiraffe,als,0
+alexangiraffe,cos,0
