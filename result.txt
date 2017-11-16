@@ -336,3 +336,6 @@ Temeraire,svd,0
 Temeraire,als,1
 Temeraire,cos,1
 smartturtle,svd,1
+nvarela,svd,1
+nvarela,als,0
+nvarela,cos,1
