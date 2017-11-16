@@ -233,3 +233,6 @@ mildthrill,cos,1
 Rushifell,svd,0
 Rushifell,als,0
 Rushifell,cos,0
+alenen,svd,0
+alenen,als,0
+alenen,cos,0
