@@ -251,3 +251,5 @@ R0land1199,svd,1
 R0land1199,svd,1
 R0land1199,als,1
 R0land1199,cos,1
+jaredkass,svd,0
+jaredkass,als,0
