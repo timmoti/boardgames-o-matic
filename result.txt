@@ -291,3 +291,5 @@ mtyree1972,als,0
 mtyree1972,cos,1
 bbacher,svd,1
 hansg,svd,1
+hansg,als,0
+hansg,cos,1
