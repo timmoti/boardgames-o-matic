@@ -236,3 +236,4 @@ Rushifell,cos,0
 alenen,svd,0
 alenen,als,0
 alenen,cos,0
+coltbeatsall,svd,1
