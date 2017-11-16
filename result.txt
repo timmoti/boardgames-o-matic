@@ -237,3 +237,5 @@ alenen,svd,0
 alenen,als,0
 alenen,cos,0
 coltbeatsall,svd,1
+coltbeatsall,als,0
+coltbeatsall,cos,1
