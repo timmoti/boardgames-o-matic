@@ -279,3 +279,4 @@ cpf86,als,0
 cpf86,cos,1
 lamaros,svd,0
 lamaros,als,0
+lamaros,cos,0
