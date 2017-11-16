@@ -355,3 +355,6 @@ smithlucas,als,1
 smithlucas,cos,1
 3davoli,svd,1
 3davoli,als,0
+Peepser,svd,0
+OmegaDestroyer,svd,0
+3davoli,cos,1
