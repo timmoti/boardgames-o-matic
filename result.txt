@@ -358,3 +358,7 @@ smithlucas,cos,1
 Peepser,svd,0
 OmegaDestroyer,svd,0
 3davoli,cos,1
+lmSkywalker,svd,1
+lmSkywalker,als,1
+spmcandrews,svd,1
+lmSkywalker,cos,1
