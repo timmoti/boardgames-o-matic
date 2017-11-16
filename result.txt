@@ -296,3 +296,7 @@ hansg,cos,1
 Dan_Malarkey,svd,0
 Dan_Malarkey,als,1
 Dan_Malarkey,cos,0
+Towpowyeah,svd,1
+Towpowyeah,als,0
+Towpowyeah,cos,1
+jorl,svd,0
