@@ -210,3 +210,7 @@ jujulautre,als,0
 jujulautre,cos,0
 invervegas,svd,1
 invervegas,als,1
+ovis,svd,0
+ovis,als,0
+ovis,cos,1
+thinman13,svd,1
