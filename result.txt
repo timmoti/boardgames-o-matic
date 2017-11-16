@@ -339,3 +339,5 @@ smartturtle,svd,1
 nvarela,svd,1
 nvarela,als,0
 nvarela,cos,1
+bstarfish101,svd,1
+bstarfish101,als,0
