@@ -379,3 +379,6 @@ hermanroozen,als,1
 hermanroozen,cos,0
 hrky000,svd,0
 ececec,svd,1
+mondauge,svd,1
+mondauge,als,0
+mondauge,cos,1
