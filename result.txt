@@ -261,3 +261,4 @@ lambo89,cos,1
 constancy,svd,0
 constancy,als,1
 constancy,cos,0
+Suzor,svd,0
