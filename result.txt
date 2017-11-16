@@ -227,3 +227,5 @@ adamw,als,0
 adamw,cos,0
 petegrey,svd,0
 petegrey,als,0
+mildthrill,svd,1
+mildthrill,als,0
