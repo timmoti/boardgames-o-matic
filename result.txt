@@ -229,3 +229,4 @@ petegrey,svd,0
 petegrey,als,0
 mildthrill,svd,1
 mildthrill,als,0
+mildthrill,cos,1
