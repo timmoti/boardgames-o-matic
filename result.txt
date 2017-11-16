@@ -366,3 +366,7 @@ spmcandrews,als,0
 Raabeyes,svd,1
 Raabeyes,als,0
 Raabeyes,cos,1
+StalkingButler,svd,1
+Pepe potamo,svd,0
+Pepe potamo,als,0
+Pepe potamo,cos,1
