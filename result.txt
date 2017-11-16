@@ -241,3 +241,4 @@ coltbeatsall,als,0
 coltbeatsall,cos,1
 Darzebass,als,0
 Darzebass,cos,1
+vdwoord,svd,0
