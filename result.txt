@@ -382,3 +382,4 @@ ececec,svd,1
 mondauge,svd,1
 mondauge,als,0
 mondauge,cos,1
+Snapcase,svd,0
