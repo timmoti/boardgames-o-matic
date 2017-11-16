@@ -301,3 +301,7 @@ Towpowyeah,als,0
 Towpowyeah,cos,1
 jorl,svd,0
 jorl,als,1
+arvama,svd,0
+arvama,als,0
+arvama,cos,1
+rahdo,svd,0
