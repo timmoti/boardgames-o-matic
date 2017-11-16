@@ -350,3 +350,4 @@ alexangiraffe,cos,0
 ali16590,svd,1
 ali16590,als,1
 ali16590,cos,0
+smithlucas,svd,1
