@@ -353,3 +353,5 @@ ali16590,cos,0
 smithlucas,svd,1
 smithlucas,als,1
 smithlucas,cos,1
+3davoli,svd,1
+3davoli,als,0
