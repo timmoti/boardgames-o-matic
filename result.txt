@@ -242,3 +242,6 @@ coltbeatsall,cos,1
 Darzebass,als,0
 Darzebass,cos,1
 vdwoord,svd,0
+lee elektrik,svd,1
+lee elektrik,als,0
+lee elektrik,cos,1
