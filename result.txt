@@ -390,3 +390,5 @@ Albireo,svd,1
 kgcamb7,svd,1
 kgcamb7,als,1
 kgcamb7,cos,0
+Ze_German_Guy,svd,1
+Ze_German_Guy,als,1
