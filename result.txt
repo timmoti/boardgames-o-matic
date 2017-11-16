@@ -287,3 +287,5 @@ cymric,als,0
 cymric,cos,1
 Wesley Forti,svd,1
 mtyree1972,svd,1
+mtyree1972,als,0
+mtyree1972,cos,1
