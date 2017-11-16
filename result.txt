@@ -322,3 +322,7 @@ PlayBosco,cos,0
 vica8081,cos,1
 mafi123,svd,1
 Shadowen,svd,0
+Shadowen,als,0
+Shadowen,cos,0
+mafi123,als,1
+mafi123,cos,1
