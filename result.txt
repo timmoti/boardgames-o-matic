@@ -281,3 +281,5 @@ lamaros,svd,0
 lamaros,als,0
 lamaros,cos,0
 brown02134,svd,1
+brown02134,als,1
+brown02134,cos,1
