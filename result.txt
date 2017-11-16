@@ -258,3 +258,6 @@ amuromax,als,1
 lambo89,svd,1
 lambo89,als,1
 lambo89,cos,1
+constancy,svd,0
+constancy,als,1
+constancy,cos,0
