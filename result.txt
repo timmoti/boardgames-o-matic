@@ -484,3 +484,5 @@ Kunter,svd,1
 Kunter,als,1
 Kunter,cos,1
 Parzival,svd,0
+Parzival,als,1
+Parzival,cos,0
