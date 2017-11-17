@@ -396,3 +396,7 @@ Ze_German_Guy,cos,1
 dummyplug,svd,0
 dummyplug,als,0
 Schoolmarm5,svd,0
+scud,svd,0
+scud,als,1
+mikeweeney,svd,1
+mikeweeney,als,1
