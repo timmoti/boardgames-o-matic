@@ -433,3 +433,7 @@ Trocmagic,als,1
 Trocmagic,cos,1
 tommynomad,svd,0
 mechanikhil,svd,1
+mechanikhil,als,1
+the chandrian,svd,1
+TaijiJohn,svd,0
+TaijiJohn,als,0
