@@ -505,3 +505,7 @@ filipgavril,svd,0
 supermaxv,svd,0
 supermaxv,als,0
 supermaxv,cos,0
+Formersd,svd,0
+Formersd,als,0
+povertidonki,svd,1
+povertidonki,als,1
