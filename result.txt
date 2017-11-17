@@ -492,3 +492,5 @@ jideee,cos,1
 Calcapone,svd,0
 Calcapone,als,1
 Calcapone,cos,1
+Duche of Jorlington,als,1
+Duche of Jorlington,cos,1
