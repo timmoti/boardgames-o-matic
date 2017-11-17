@@ -502,3 +502,6 @@ feeleye,svd,1
 feeleye,als,1
 feeleye,cos,1
 filipgavril,svd,0
+supermaxv,svd,0
+supermaxv,als,0
+supermaxv,cos,0
