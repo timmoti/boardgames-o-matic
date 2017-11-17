@@ -439,3 +439,4 @@ TaijiJohn,svd,0
 TaijiJohn,als,0
 janselmo,svd,0
 janselmo,als,1
+janselmo,cos,1
