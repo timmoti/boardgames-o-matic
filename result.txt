@@ -454,3 +454,7 @@ rachelfitterer,als,0
 rachelfitterer,cos,0
 quill65,svd,0
 quill65,als,0
+flapjackmachine,svd,0
+flapjackmachine,als,0
+flapjackmachine,cos,1
+klawton,svd,1
