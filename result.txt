@@ -526,3 +526,4 @@ tyrone_jones,cos,0
 Kayril,svd,0
 Kayril,als,0
 Kayril,cos,1
+zoddone,svd,1
