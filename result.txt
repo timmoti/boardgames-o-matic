@@ -420,3 +420,11 @@ jonmoor,als,0
 jonmoor,cos,1
 neoMarcos,svd,1
 M0gwai,svd,1
+M0gwai,als,1
+neoMarcos,svd,1
+M0gwai,cos,1
+neoMarcos,als,1
+silverrobert,svd,0
+neoMarcos,cos,0
+silverrobert,als,0
+silverrobert,cos,0
