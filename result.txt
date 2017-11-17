@@ -463,3 +463,7 @@ quill65,cos,1
 klawton,cos,1
 Fireseed,svd,1
 Fireseed,als,1
+Fireseed,cos,1
+Pandeminatic,svd,1
+Pandeminatic,als,1
+Pandeminatic,cos,0
