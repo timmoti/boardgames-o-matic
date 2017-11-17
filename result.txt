@@ -418,3 +418,5 @@ Poserdisposer,cos,1
 jonmoor,svd,0
 jonmoor,als,0
 jonmoor,cos,1
+neoMarcos,svd,1
+M0gwai,svd,1
