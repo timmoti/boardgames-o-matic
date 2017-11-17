@@ -410,3 +410,7 @@ Qalor,als,0
 Qalor,cos,1
 fcboyd,svd,1
 fcboyd,als,0
+fcboyd,cos,1
+Poserdisposer,svd,1
+Poserdisposer,als,1
+Poserdisposer,cos,1
