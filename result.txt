@@ -446,3 +446,6 @@ fantseepants,cos,0
 vbh70s,svd,1
 vbh70s,als,0
 vbh70s,cos,1
+copsrus,svd,1
+copsrus,als,1
+copsrus,cos,0
