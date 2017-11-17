@@ -458,3 +458,8 @@ flapjackmachine,svd,0
 flapjackmachine,als,0
 flapjackmachine,cos,1
 klawton,svd,1
+klawton,als,1
+quill65,cos,1
+klawton,cos,1
+Fireseed,svd,1
+Fireseed,als,1
