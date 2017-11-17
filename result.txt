@@ -470,3 +470,7 @@ Pandeminatic,cos,0
 spasmodic,svd,1
 spasmodic,als,1
 spasmodic,cos,1
+Zepheus,svd,0
+Zepheus,als,1
+Zepheus,als,0
+Zepheus,cos,1
