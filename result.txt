@@ -408,3 +408,5 @@ Abiezer Coppe,cos,0
 Qalor,svd,1
 Qalor,als,0
 Qalor,cos,1
+fcboyd,svd,1
+fcboyd,als,0
