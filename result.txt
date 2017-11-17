@@ -440,3 +440,6 @@ TaijiJohn,als,0
 janselmo,svd,0
 janselmo,als,1
 janselmo,cos,1
+fantseepants,svd,1
+fantseepants,als,0
+fantseepants,cos,0
