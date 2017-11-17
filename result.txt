@@ -510,3 +510,6 @@ Formersd,als,0
 povertidonki,svd,1
 povertidonki,als,1
 ckneeland,svd,1
+wreadsiii,svd,1
+wreadsiii,als,0
+wreadsiii,cos,1
