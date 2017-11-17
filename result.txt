@@ -449,3 +449,6 @@ vbh70s,cos,1
 copsrus,svd,1
 copsrus,als,1
 copsrus,cos,0
+rachelfitterer,svd,1
+rachelfitterer,als,0
+rachelfitterer,cos,0
