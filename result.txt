@@ -479,3 +479,4 @@ dandp3,als,1
 dandp3,cos,0
 dandp3,cos,0
 Daimian09,svd,0
+John Rogers,svd,0
