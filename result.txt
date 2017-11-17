@@ -500,3 +500,4 @@ Cadila,als,1
 Cadila,cos,0
 feeleye,svd,1
 feeleye,als,1
+feeleye,cos,1
