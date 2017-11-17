@@ -522,3 +522,4 @@ MWil,als,1
 MWil,cos,0
 tyrone_jones,svd,0
 tyrone_jones,als,1
+tyrone_jones,cos,0
