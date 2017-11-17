@@ -486,3 +486,6 @@ Kunter,cos,1
 Parzival,svd,0
 Parzival,als,1
 Parzival,cos,0
+jideee,svd,1
+jideee,als,0
+jideee,cos,1
