@@ -489,3 +489,6 @@ Parzival,cos,0
 jideee,svd,1
 jideee,als,0
 jideee,cos,1
+Calcapone,svd,0
+Calcapone,als,1
+Calcapone,cos,1
