@@ -452,3 +452,5 @@ copsrus,cos,0
 rachelfitterer,svd,1
 rachelfitterer,als,0
 rachelfitterer,cos,0
+quill65,svd,0
+quill65,als,0
