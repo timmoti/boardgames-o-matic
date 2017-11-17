@@ -428,3 +428,8 @@ silverrobert,svd,0
 neoMarcos,cos,0
 silverrobert,als,0
 silverrobert,cos,0
+Trocmagic,svd,0
+Trocmagic,als,1
+Trocmagic,cos,1
+tommynomad,svd,0
+mechanikhil,svd,1
