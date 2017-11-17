@@ -400,3 +400,5 @@ scud,svd,0
 scud,als,1
 mikeweeney,svd,1
 mikeweeney,als,1
+mikeweeney,cos,0
+Schoolmarm5,als,0
