@@ -443,3 +443,6 @@ janselmo,cos,1
 fantseepants,svd,1
 fantseepants,als,0
 fantseepants,cos,0
+vbh70s,svd,1
+vbh70s,als,0
+vbh70s,cos,1
