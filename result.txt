@@ -414,3 +414,4 @@ fcboyd,cos,1
 Poserdisposer,svd,1
 Poserdisposer,als,1
 Poserdisposer,cos,1
+Poserdisposer,cos,1
