@@ -403,3 +403,5 @@ mikeweeney,als,1
 mikeweeney,cos,0
 Schoolmarm5,als,0
 Schoolmarm5,cos,0
+Abiezer Coppe,als,0
+Abiezer Coppe,cos,0
