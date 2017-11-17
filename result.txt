@@ -514,3 +514,5 @@ wreadsiii,svd,1
 wreadsiii,als,0
 wreadsiii,cos,1
 YellowJack,svd,0
+Karstein,svd,1
+fambans,svd,1
