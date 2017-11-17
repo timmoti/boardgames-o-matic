@@ -415,3 +415,6 @@ Poserdisposer,svd,1
 Poserdisposer,als,1
 Poserdisposer,cos,1
 Poserdisposer,cos,1
+jonmoor,svd,0
+jonmoor,als,0
+jonmoor,cos,1
