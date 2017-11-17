@@ -407,3 +407,4 @@ Abiezer Coppe,als,0
 Abiezer Coppe,cos,0
 Qalor,svd,1
 Qalor,als,0
+Qalor,cos,1
