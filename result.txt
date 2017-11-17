@@ -520,3 +520,5 @@ fambans,als,0
 MWil,svd,0
 MWil,als,1
 MWil,cos,0
+tyrone_jones,svd,0
+tyrone_jones,als,1
