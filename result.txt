@@ -517,3 +517,5 @@ YellowJack,svd,0
 Karstein,svd,1
 fambans,svd,1
 fambans,als,0
+MWil,svd,0
+MWil,als,1
