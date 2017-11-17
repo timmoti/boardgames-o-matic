@@ -519,3 +519,4 @@ fambans,svd,1
 fambans,als,0
 MWil,svd,0
 MWil,als,1
+MWil,cos,0
