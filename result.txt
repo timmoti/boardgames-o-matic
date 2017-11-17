@@ -467,3 +467,6 @@ Fireseed,cos,1
 Pandeminatic,svd,1
 Pandeminatic,als,1
 Pandeminatic,cos,0
+spasmodic,svd,1
+spasmodic,als,1
+spasmodic,cos,1
