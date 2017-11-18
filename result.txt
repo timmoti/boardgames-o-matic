@@ -541,3 +541,4 @@ DyingTickles,als,0
 derp,svd,1
 derp,als,0
 derp,cos,1
+modernbummer,svd,0
