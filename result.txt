@@ -527,3 +527,5 @@ Kayril,svd,0
 Kayril,als,0
 Kayril,cos,1
 zoddone,svd,1
+hyrumli,svd,1
+hyrumli,als,1
