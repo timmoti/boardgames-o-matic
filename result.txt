@@ -533,3 +533,6 @@ hyrumli,cos,1
 Koovan,svd,0
 Koovan,als,1
 djs326,svd,0
+oilerfan,svd,1
+oilerfan,als,1
+oilerfan,cos,1
