@@ -538,3 +538,6 @@ oilerfan,als,1
 oilerfan,cos,1
 DyingTickles,svd,1
 DyingTickles,als,0
+derp,svd,1
+derp,als,0
+derp,cos,1
