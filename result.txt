@@ -549,3 +549,4 @@ cowhollow,cos,1
 Prismattic,svd,1
 Prismattic,als,1
 Prismattic,cos,1
+rushhowe,svd,1
