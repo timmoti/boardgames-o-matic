@@ -536,3 +536,5 @@ djs326,svd,0
 oilerfan,svd,1
 oilerfan,als,1
 oilerfan,cos,1
+DyingTickles,svd,1
+DyingTickles,als,0
