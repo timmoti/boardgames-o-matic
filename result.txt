@@ -553,3 +553,5 @@ rushhowe,svd,1
 ftanjuatco,svd,1
 ftanjuatco,als,0
 ftanjuatco,cos,1
+Quinns,svd,0
+StoneColdCrazy,svd,0
