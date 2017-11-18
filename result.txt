@@ -543,3 +543,6 @@ derp,als,0
 derp,cos,1
 modernbummer,svd,0
 Renaissance Man,svd,1
+cowhollow,svd,0
+cowhollow,als,0
+cowhollow,cos,1
