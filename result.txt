@@ -546,3 +546,6 @@ Renaissance Man,svd,1
 cowhollow,svd,0
 cowhollow,als,0
 cowhollow,cos,1
+Prismattic,svd,1
+Prismattic,als,1
+Prismattic,cos,1
