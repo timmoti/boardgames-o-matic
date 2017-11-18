@@ -555,3 +555,4 @@ ftanjuatco,als,0
 ftanjuatco,cos,1
 Quinns,svd,0
 StoneColdCrazy,svd,0
+Riotgirl,svd,1
