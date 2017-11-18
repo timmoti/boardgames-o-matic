@@ -551,3 +551,5 @@ Prismattic,als,1
 Prismattic,cos,1
 rushhowe,svd,1
 ftanjuatco,svd,1
+ftanjuatco,als,0
+ftanjuatco,cos,1
