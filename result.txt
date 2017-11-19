@@ -557,3 +557,5 @@ Quinns,svd,0
 StoneColdCrazy,svd,0
 Riotgirl,svd,1
 DanMan81,svd,1
+phwank,svd,1
+phwank,als,1
