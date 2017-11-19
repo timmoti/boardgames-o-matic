@@ -559,3 +559,4 @@ Riotgirl,svd,1
 DanMan81,svd,1
 phwank,svd,1
 phwank,als,1
+phwank,cos,1
