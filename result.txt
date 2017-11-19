@@ -563,3 +563,6 @@ phwank,cos,1
 Sephakay,svd,0
 Sephakay,als,0
 Sephakay,cos,1
+jasonc213,svd,1
+jasonc213,als,1
+jasonc213,cos,1
