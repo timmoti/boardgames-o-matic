@@ -560,3 +560,6 @@ DanMan81,svd,1
 phwank,svd,1
 phwank,als,1
 phwank,cos,1
+Sephakay,svd,0
+Sephakay,als,0
+Sephakay,cos,1
