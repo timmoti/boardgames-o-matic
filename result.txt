@@ -569,3 +569,5 @@ jasonc213,cos,1
 caedium,svd,1
 Turkimurki,svd,0
 Phillygee,svd,1
+Rattle87,svd,1
+Rattle87,als,1
