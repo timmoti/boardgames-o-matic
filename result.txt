@@ -576,3 +576,5 @@ tnash,svd,0
 tnash,als,0
 tnash,cos,1
 Gee Whiz,svd,0
+Gee Whiz,als,0
+Gee Whiz,cos,0
