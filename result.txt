@@ -578,3 +578,5 @@ tnash,cos,1
 Gee Whiz,svd,0
 Gee Whiz,als,0
 Gee Whiz,cos,0
+lelino,svd,1
+lelino,als,1
