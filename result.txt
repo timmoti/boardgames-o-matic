@@ -588,3 +588,5 @@ dogzard,als,0
 dogzard,cos,0
 jopm,svd,0
 jopm,als,1
+visard,svd,1
+visard,als,1
