@@ -583,3 +583,6 @@ lelino,als,1
 zachpas,svd,0
 chexout,svd,0
 JohnnyDollar,cos,1
+dogzard,svd,0
+dogzard,als,0
+dogzard,cos,0
