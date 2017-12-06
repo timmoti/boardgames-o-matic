@@ -598,3 +598,6 @@ petrolito,cos,1
 Pokeweed Mitogen,svd,0
 Pokeweed Mitogen,als,0
 Pokeweed Mitogen,cos,1
+AlexDaddyPants,svd,0
+AlexDaddyPants,als,0
+AlexDaddyPants,cos,1
