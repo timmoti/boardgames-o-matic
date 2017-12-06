@@ -591,3 +591,7 @@ jopm,als,1
 visard,svd,1
 visard,als,1
 visard,cos,1
+petrolito,svd,0
+petrolito,svd,0
+petrolito,als,1
+petrolito,cos,1
