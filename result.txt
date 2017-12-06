@@ -595,3 +595,6 @@ petrolito,svd,0
 petrolito,svd,0
 petrolito,als,1
 petrolito,cos,1
+Pokeweed Mitogen,svd,0
+Pokeweed Mitogen,als,0
+Pokeweed Mitogen,cos,1
