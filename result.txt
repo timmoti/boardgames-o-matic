@@ -581,3 +581,4 @@ Gee Whiz,cos,0
 lelino,svd,1
 lelino,als,1
 zachpas,svd,0
+chexout,svd,0
