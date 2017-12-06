@@ -601,3 +601,6 @@ Pokeweed Mitogen,cos,1
 AlexDaddyPants,svd,0
 AlexDaddyPants,als,0
 AlexDaddyPants,cos,1
+4ntonio,svd,0
+4ntonio,als,0
+4ntonio,cos,1
