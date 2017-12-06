@@ -590,3 +590,4 @@ jopm,svd,0
 jopm,als,1
 visard,svd,1
 visard,als,1
+visard,cos,1
