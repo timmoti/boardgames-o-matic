@@ -586,3 +586,5 @@ JohnnyDollar,cos,1
 dogzard,svd,0
 dogzard,als,0
 dogzard,cos,0
+jopm,svd,0
+jopm,als,1
