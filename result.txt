@@ -607,3 +607,6 @@ AlexDaddyPants,cos,1
 meshnaster,svd,0
 meshnaster,als,0
 meshnaster,cos,0
+muchiflapopo,svd,0
+muchiflapopo,als,0
+muchiflapopo,cos,1
