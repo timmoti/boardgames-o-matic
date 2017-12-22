@@ -610,3 +610,5 @@ meshnaster,cos,0
 muchiflapopo,svd,0
 muchiflapopo,als,0
 muchiflapopo,cos,1
+SNZH,svd,0
+SNZH,als,0
