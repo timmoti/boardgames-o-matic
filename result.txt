@@ -613,3 +613,5 @@ muchiflapopo,cos,1
 SNZH,svd,0
 SNZH,als,0
 dhorvath5888,svd,1
+dhorvath5888,als,1
+dhorvath5888,cos,1
